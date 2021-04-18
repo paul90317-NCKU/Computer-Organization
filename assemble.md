@@ -47,13 +47,13 @@ $a0 參數。
 * R format  
 ``(op:funct) rd rs rt``  
 Ex. add、sub、slt、and、or ...  
-``(op:funct) rd rt shamt``
+``(op:funct) rd rt shamt``  
 Ex. sll、srl ...  
-``(op:funct) rs``
+``(op:funct) rs``  
 Ex. jr  
   
 * I format  
-``(op) rt rs immediate(constant、address)``
+``(op) rt rs immediate(constant、address)``  
 Ex. addi、beq、bne、lw、sw ...  
   
 * J format  
