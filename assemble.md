@@ -13,3 +13,31 @@ MSB  low adderss
 |  
 v  
 LSB  high address  
+## 設計 MIPS 三大原則  
+* 有規律且簡單  
+ex: 儲存運算分開  
+* 小而快  
+ex: register 小而快速，mem 輔助大小。  
+* 越常用越快  
+ex: addi  
+## 遞迴  
+* callee
+存 ra、s0(caller 的)。  
+復原 s0。  
+jr $ra。  
+* caller
+存 t0、a0(自己的)。  
+換成 callee 的 a0。  
+j callee。  
+復原 t0、a0。  
+* sp  
+存在 sp。  
+由於存法由高到低(stack)，所以先位移(減)幾位(addi -4*i)。  
+再由小而大存。  
+> dynamic data，由低到高，與 stack 相遇 則為 overflow。  
+> $fp ，存 MSB 端。
+* syscall  
+\$v0 函式代號。  
+$a0 參數。
+## Basic Blocks
+不管中間怎麼跑，進去出來都一樣。
