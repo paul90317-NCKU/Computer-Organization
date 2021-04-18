@@ -35,6 +35,7 @@ j callee。
 由於存法由高到低(stack)，所以先位移(減)幾位(addi -4*i)。  
 再由小而大存。  
 > dynamic data，由低到高，與 stack 相遇 則為 overflow。  
+  
 > $fp ，存 MSB 端。
 * syscall  
 \$v0 函式代號。  
