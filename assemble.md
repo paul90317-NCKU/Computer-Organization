@@ -45,27 +45,16 @@ $a0 參數。
 ## Format
 ![](format.png)  
 * R format  
-```
-(op:funct) rd rs rt  
-```
+``(op:funct) rd rs rt``  
 Ex. add、sub、slt、and、or ...  
-***
-```
-(op:funct) rd rt shamt  
-```
+``(op:funct) rd rt shamt``
 Ex. sll、srl ...  
-***
-```
-(op:funct) rs  
-```
+``(op:funct) rs``
 Ex. jr  
 ***
 * I format  
-```
-(op) rt rs immediate(constant、address)  
-```
+``(op) rt rs immediate(constant、address)``
 Ex. addi、beq、bne、lw、sw ...  
-***
 * J format  
 Ex. j、jal  
 
