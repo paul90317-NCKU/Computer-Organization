@@ -47,10 +47,8 @@ $a0 參數。
 * R format  
 ``(op:funct) rd rs rt``  
 Ex. add、sub、slt、and、or ...  
-  
 ``(op:funct) rd rt shamt``  
 Ex. sll、srl ...  
-  
 ``(op:funct) rs``  
 Ex. jr  
   
