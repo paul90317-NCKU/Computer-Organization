@@ -51,10 +51,12 @@ Ex. add、sub、slt、and、or ...
 Ex. sll、srl ...  
 ``(op:funct) rs``
 Ex. jr  
-***
+  
 * I format  
 ``(op) rt rs immediate(constant、address)``
 Ex. addi、beq、bne、lw、sw ...  
+  
 * J format  
 Ex. j、jal  
+  
 
