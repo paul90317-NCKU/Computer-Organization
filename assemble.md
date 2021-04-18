@@ -8,8 +8,8 @@ lower address <-> higher address
 higher address <-> lower address  
 好處左而右都是由大到小，但是數字超過 1B，Bytes 要由右而左，且之中的 bit 右由左而右看。
 * MIPS 存法  
-MSB  0  
-^    1  
-|    .  
-v    .  
-LSB  max address  
+MSB  low adderss  
+^  
+|  
+v  
+LSB  high address  
