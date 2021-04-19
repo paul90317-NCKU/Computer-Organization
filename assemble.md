@@ -1,4 +1,4 @@
-# assembler
+# Assembler
 ## 記憶體儲存
 已知記憶體儲存: msb <-> lsb
 * Big Endian  
@@ -73,5 +73,7 @@ Ex. j、jal
 比 j 多了更新 $ra。  
 * jr  
 回到 暫存 存的位置(32 bits 應該是真實位置)。  
+## pointer
+沒有一個 memory 有變數，只能透過 register 存的值和偏移量(值的加減)指到該 memmory(ex: $sp)。  
   
 
