@@ -55,8 +55,9 @@ Ex. jr
   
 * I format  
 ``(op) rt rs immediate(constant、address)``  
-Ex. addi、beq、bne、lw、sw ...  
-  
+Ex. addi、beq、bne ...  
+``(op) rt imme(rs) ``  
+Ex. lw、sw ...  
 * J format  
 Ex. j、jal  
 ## Jump  
