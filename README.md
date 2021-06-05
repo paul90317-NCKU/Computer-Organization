@@ -1,6 +1,6 @@
 # Computer Organization  
-[Performance](performance.md)  
-[Assembler](assemble.md)  
-[ALU](ALU.md)  
-[Float](float.md)  
-[Datapath](datapath.md)  
+[Performance](note/performance.md)  
+[Assembler](note/assemble.md)  
+[ALU](note/ALU.md)  
+[Float](note/float.md)  
+[Datapath](note/datapath.md)  
