@@ -1,0 +1,78 @@
+// Please include verilog file if you write module in other file
+module CPU(
+    input             clk,
+    input             rst,
+    input      [31:0] data_out,
+    input      [31:0] instr_out,
+    output reg        instr_read,
+    output reg        data_read,
+    output reg [31:0] instr_addr,
+    output reg [31:0] data_addr,
+    output reg [3:0]  data_write,
+    output reg [31:0] data_in
+);
+
+/* Add your design */
+reg [31:0] register[0:31];
+
+initial begin
+    /*register[0]<=0;
+    instr_addr<=32'h134;
+    instr_read<=1;*/
+    data_addr<=32'hfffc
+end
+
+always@(instr_out)begin
+    $display("%d %h",instr_addr,instr_out);
+end
+
+/*
+reg [63:0] rd_r;
+reg [63:0] rs1_r;
+reg [63:0] rs2_r;
+
+always @(negedge r_finish)begin
+    rs1_r=register[instr_out[19:15]];
+    rs1_r=register[instr_out[24:20]];
+    case(instr_out[31:25])
+        7'b0000000:begin
+            case(instr_out[14:12])
+                3'b000:rd_r=rs1_r+rs2_r;
+                3'b001:rd_r=rs1_r<<rs2_r[4:0];
+                3'b010:rd_r=$signed(rs1_r)<$signed(rs2_r);
+                3'b011:rd_r=rs1_r<rs2_r;
+                3'b100:rd_r=rs1_r^rs2_r;
+                3'b101:rd_r=rs1_r>>rs2_r[4:0];
+                3'b110:rd_r=rs1_r | rs2_r;
+                3'b110:rd_r=rs1_r & rs2_r;
+                default:rd_r=0;
+            endcase
+        end
+        7'b0100000:begin
+            case(instr_out[14:12])
+                3'b000:rd_r=rs1_r-rs2_r;
+                3'b101:rd_r=rs1_r>>>rs2_r[4:0];
+            endcase
+        end
+        7'b0000001:begin
+            case(instr_out[14:12])
+                3'b000:rd_r=rs1_r*rs2_r;
+                3'b001:begin
+                    rd_r=$signed(rs1_r)*$signed(rs2_r);
+                    rd_r=rd_r[63:32];
+                end
+                3'b011:begin
+                    rd_r=rs1_r*rs2_r;
+                    rd_r=rd_r[63:32];
+                end
+            endcase
+        end
+        default:rd_r=0;
+    endcase
+    $display("%d",rd_r);
+    register[instr_out[11:7]]=rd_r;
+    r_finish=1;
+    instr_read=0;
+end
+*/
+endmodule

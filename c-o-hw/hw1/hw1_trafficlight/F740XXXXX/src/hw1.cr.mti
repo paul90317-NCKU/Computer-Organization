@@ -1,0 +1,15 @@
+C:/Users/Paul/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light.v {1 {vlog -work work -stats=none C:/Users/Paul/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module traffic_light
+
+Top level modules:
+	traffic_light
+
+} {} {}} C:/Users/Paul/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light_tb.v {1 {vlog -work work -stats=none C:/Users/Paul/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module traffic_light_tb
+
+Top level modules:
+	traffic_light_tb
+
+} {} {}}

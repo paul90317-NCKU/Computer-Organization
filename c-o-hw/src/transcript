@@ -1,0 +1,92 @@
+# Compile of top_tb.v was successful.
+# Compile of CPU.v was successful.
+# Compile of SRAM.v was successful.
+# Compile of top.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.top_tb
+# vsim work.top_tb 
+# Start time: 22:25:45 on May 17,2021
+# Loading work.top_tb
+# Loading work.top
+# Loading work.CPU
+# Loading work.SRAM
+# ** Warning: (vsim-PLI-3691) C:/Users/Paul/Documents/github/c-o-hw/src/top_tb.v(48): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb File: C:/Users/Paul/Documents/github/c-o-hw/src/top_tb.v
+run -all
+# 
+# Done
+# 
+# DM[   0] = fffffff0, pass
+# DM[   1] = fffffff8, pass
+# DM[   2] = 00000008, pass
+# DM[   3] = 00000001, pass
+# DM[   4] = 00000001, pass
+# DM[   5] = 78787878, pass
+# DM[   6] = 000091a2, pass
+# DM[   7] = 00000003, pass
+# DM[   8] = fefcfefd, pass
+# DM[   9] = 10305070, pass
+# DM[  10] = cccccccc, pass
+# DM[  11] = ffffffcc, pass
+# DM[  12] = ffffcccc, pass
+# DM[  13] = 000000cc, pass
+# DM[  14] = 0000cccc, pass
+# DM[  15] = 00000d9d, pass
+# DM[  16] = 00000004, pass
+# DM[  17] = 00000003, pass
+# DM[  18] = 000001a6, pass
+# DM[  19] = 00000ec6, pass
+# DM[  20] = 2468b7a8, pass
+# DM[  21] = 5dbf9f00, pass
+# DM[  22] = 00012b38, pass
+# DM[  23] = fa2817b7, pass
+# DM[  24] = ff000000, pass
+# DM[  25] = 12345678, pass
+# DM[  26] = 0000f000, pass
+# DM[  27] = 00000f00, pass
+# DM[  28] = 000000f0, pass
+# DM[  29] = 0000000f, pass
+# DM[  30] = 56780000, pass
+# DM[  31] = 78000000, pass
+# DM[  32] = 00005678, pass
+# DM[  33] = 00000078, pass
+# DM[  34] = 12345678, pass
+# DM[  35] = ce780000, pass
+# DM[  36] = fffff000, pass
+# DM[  37] = fffff000, pass
+# DM[  38] = fffff000, pass
+# DM[  39] = fffff000, pass
+# DM[  40] = fffff000, pass
+# DM[  41] = fffff000, pass
+# DM[  42] = 1357a064, pass
+# DM[  43] = 13578000, pass
+# DM[  44] = fffff004, pass
+# DM[  45] = 000174a8, pass
+# DM[  46] = fffffb37, pass
+# DM[  47] = 00007740, pass
+# DM[  48] = 00005af3, pass
+# DM[  49] = ffffff17, pass
+# DM[  50] = 000000e8, pass
+# DM[  51] = 00005af3, pass
+# DM[  52] = 000f405f, pass
+# DM[  53] = ffe17e1e, pass
+# 
+# 
+# 
+# 
+#         ****************************               
+#         **                        **       |__||  
+#         **  Congratulations !!    **      / O.O  | 
+#         **                        **    /_____   | 
+#         **  Simulation PASS!!     **   /^ ^ ^ \  |
+#         **                        **  |^ ^ ^ ^ |w| 
+#         ****************************   \m___m__|_|
+# 
+# 
+# total cycle:      6238
+# ** Note: $finish    : C:/Users/Paul/Documents/github/c-o-hw/src/top_tb.v(67)
+#    Time: 62390 ns  Iteration: 1  Instance: /top_tb
+# 1
+# Break in Module top_tb at C:/Users/Paul/Documents/github/c-o-hw/src/top_tb.v line 67
+# End time: 22:26:03 on May 17,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1

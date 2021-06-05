@@ -1,0 +1,31 @@
+C:/Users/Paul/Documents/github/c-o-hw/src/top.v {1 {vlog -work work -stats=none C:/Users/Paul/Documents/github/c-o-hw/src/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CPU
+-- Compiling module SRAM
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/Paul/Documents/github/c-o-hw/src/SRAM.v {1 {vlog -work work -stats=none C:/Users/Paul/Documents/github/c-o-hw/src/SRAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SRAM
+
+Top level modules:
+	SRAM
+
+} {} {}} C:/Users/Paul/Documents/github/c-o-hw/src/CPU.v {1 {vlog -work work -stats=none C:/Users/Paul/Documents/github/c-o-hw/src/CPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} C:/Users/Paul/Documents/github/c-o-hw/src/top_tb.v {1 {vlog -work work -stats=none C:/Users/Paul/Documents/github/c-o-hw/src/top_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_tb
+
+Top level modules:
+	top_tb
+
+} {} {}}

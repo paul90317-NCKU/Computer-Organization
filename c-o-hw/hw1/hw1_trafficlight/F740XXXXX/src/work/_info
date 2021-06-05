@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Paul/github/verilog/Lab_Modelsim/half_adder
+vtraffic_light
+Z0 !s110 1615447830
+!i10b 1
+!s100 78ZNThfnmjTWKFS0QZG8G2
+IEPnz4Z1fb6jgUncW^hIa<0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Paul/Documents/github/verilog/hw1_trafficlight/F740XXXXX/src
+w1615392972
+8C:/Users/Paul/Documents/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light.v
+FC:/Users/Paul/Documents/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1615447830.000000
+!s107 C:/Users/Paul/Documents/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Paul/Documents/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtraffic_light_tb
+R0
+!i10b 1
+!s100 `FLFIQa1CaM<kLDhiaDIc2
+IVM?0IO0_C80^jQn`VdYk_0
+R1
+R2
+w1613988057
+8C:/Users/Paul/Documents/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light_tb.v
+FC:/Users/Paul/Documents/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light_tb.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Paul/Documents/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Paul/Documents/github/verilog/hw1_trafficlight/F740XXXXX/src/traffic_light_tb.v|
+!i113 1
+R5
+R6
