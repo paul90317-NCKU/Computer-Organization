@@ -28,7 +28,6 @@ int main(int argc,char* argv[]){
     fout.open(argv[2],ios::out);
     fin>>cache_size>>block_size>>aso>>rep;
     cache_size=cache_size*1024/block_size;
-    unsigned randnum=0;
     if(aso==0){// direct mapping
         int lines[cache_size];
         bool valid[cache_size];
@@ -91,15 +90,15 @@ int main(int argc,char* argv[]){
                 fout<<"-1\n";
             }else{
                 if(rep==2){
-                    fout<<ways[index][randnum]<<'\n';
-                    ways[index][randnum]=tag;
+                    unsigned r=rand()%4;
+                    fout<<ways[index][r]<<'\n';
+                    ways[index][r]=tag;
                 }else{
                     fout<<ways[index][head[index]]<<'\n';
                     ways[index][head[index]]=tag;
                     head[index]=(head[index]+1)%4;
                 }
             }
-            randnum=(randnum+1)%4;
         }
     }else if(aso==2){//full
         int head=0;
@@ -131,15 +130,16 @@ int main(int argc,char* argv[]){
                 fout<<"-1\n";
             }else{
                 if(rep==2){
-                    fout<<ways[randnum]<<'\n';
-                    ways[randnum]=tag;
+                    unsigned r=rand()+rand()*RAND_MAX;
+                    r%=cache_size;
+                    fout<<ways[r]<<'\n';
+                    ways[r]=tag;
                 }else{
                     fout<<ways[head]<<'\n';
                     ways[head]=tag;
                     head=(head+1)%cache_size;
                 }
             }
-            randnum=(~randnum+3)%cache_size;
         }
     }
     fin.close();
